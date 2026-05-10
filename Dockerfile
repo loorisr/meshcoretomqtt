@@ -6,7 +6,7 @@
 #     meshcoretomqtt:latest
 
 # Final stage
-FROM python:3.11-alpine
+FROM python:alpine
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
